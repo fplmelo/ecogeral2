@@ -206,3 +206,7 @@ Para brincar com curvas de extrapolação/interpolação veja o site da [Anne Ch
 .center[´
 <img src="https://www.researchgate.net/profile/Michael-Hoffmann-19/publication/6958884/figure/fig1/AS:280471314419712@1443880980338/Maps-of-the-nine-global-biodiversity-conservation-priority-templates-CE-crisis.png"/>]
 [Brooks et al 2006](https://science.sciencemag.org/content/313/5783/58)
+---
+class: center, middle
+# FIM
+---
