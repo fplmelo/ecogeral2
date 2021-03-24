@@ -1,0 +1,8 @@
+name: "Ecologia Geral 2"
+navbar:
+  title: "Ecologia Geral 2"
+  left:
+    - text: "Início"
+      href: index.html
+    - text: "About"
+      href: about.html
