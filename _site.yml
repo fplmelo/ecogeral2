@@ -1,8 +1,20 @@
-name: "Ecologia Geral 2"
+name: "Ecologia Geral"
+output_dir: "docs"
+output:  
+  html_document:  
+    self_contained: no  
+    theme: flatly
 navbar:
-  title: "Ecologia Geral 2"
+  title: "Ecologia Geral"
   left:
-    - text: "Início"
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Links"
+      href: Links.html
+    - text: "Aulas"
+      menu:
+        - text: "Ementa"
+          href: plano_ensino.html
+        - text: "Intro a Biodiversidade"
+          href: base_dados.html
+        - text: "Medidas de Associação"
+          href: med_assoc.html
+        - text: "---------"
