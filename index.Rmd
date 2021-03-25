@@ -1,9 +1,53 @@
 ---
-title: "Ecologia Geral"
+title: "Plano de ensino de *Ecologia Geral 2*"
+author: "Débora Barbsa, Felipe Melo & Gilberto Rodrigues"
+date: "25/01/2021"
+output:
+  html_document:
+    df_print: paged
 ---
+## Coordenadora
 
-Hello, Website!
+Débora Babrosa (Depto de Zoologia)
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+## Carga horária
+60 horas
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+## Ementa
+Noções de biogeografia, conservação e monitoramento da diversidade biológica.
+
+## Objetivos
+Desenvolver senso critico dos alunos quanto às questões relacionadas a ecologia atual como: biodiversidade, padrões e distribuição da vida na Terra, ameaças a biodiversidade; problemas e conflitos ambientais; recuperação de áreas e ecossistemas degradados, entre outros.
+
+## Metodologia
+A disciplina será ministrada através de aulas expositivas e exercícios práticos com comunidades naturais e simuladas e com a utilização do programa R como principal software de análise de dados
+
+## Avaliação
+Teórica - Exposição oral durante 2 horas semanal - atividade síncrona que será realizada através do 
+
+[Google Meet](https://meet.google.com/lookup/annceffcfb?authuser=0&hs=179); [Google Classroom](https://classroom.google.com/c/MjQxNjA1NzE1MTMw?cjc=brrxkng) e este pŕoprio site.
+
+Atividades Assíncrona:  Interpretação de artigos científico - Leitura de textos relacionados - Vídeos - Estudo de caso- Todas as atividades assíncronas serão realizadas no Google Classroom com duração de 3 horas semanal. Código da turma brrxkng
+
+## Conteúdo programático
+- Apresentação e Introdução da disciplina. Crescimento populacional, colapsos sociais e ecológicos
+- Impactos da agricultura, controle biológico de pragas e agroecologia
+- Capacidade de suporte da terra e pegada ecológica
+- Mudanças Climáticas e Aquecimento global
+- Dispersão e espécies invasoras habitat e nicho ecológico
+- Recuperação, reabilitação e restauração de ecossistemas
+- Populações explotadas e ecologia humana
+- Agrobiodiversidade e conservação do patrimônio genético e cultural e dos saberes culturais
+- A mensuração da biodiversidade como ferramenta de conservação.
+- Padrões globais de distribuição e magnitude da biodiversidade
+- Problemas ambientais globais como avalialos?
+- A crise contemporânea da biodiversidade calculando probabilidades de extinção
+
+
+## Bibliografia
+
+### Conteúdo teórico
+
+MAGURRAN, A. E. Ecological diversity and its measurement. University press, Cambridge, 1988. 167p.
+
+[Conservation Biology for All](https://conbio.org/publications/free-textbook/)

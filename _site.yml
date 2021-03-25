@@ -11,10 +11,8 @@ navbar:
       href: Links.html
     - text: "Aulas"
       menu:
-        - text: "Ementa"
-          href: plano_ensino.html
-        - text: "Intro a Biodiversidade"
-          href: base_dados.html
-        - text: "Medidas de Associação"
-          href: med_assoc.html
+        - text: "Introdução a Biodiversidade"
+          href: intro_bio.html
+        - text: "Padrões globais de distribuição e magnitude da biodiversidade"
+          href: biogeo.html
         - text: "---------"
