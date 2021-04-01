@@ -1,0 +1,93 @@
+---
+title: "Ecologia Geral 2"
+subtitle: "Aula 2 - Padrões de distribuição e magnitude da biodiversidade"
+author: "Felipe Melo"
+institute: "Laboratório de Ecologia Aplicada - UFPE"
+date: "`r Sys.Date()`"
+encoding: "UTF-8"
+output: 
+  xaringan::moon_reader:
+    libs_dir: libs
+    css: ["robot","tamu-fonts"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "macros.js"
+
+---
+```{r setup, include=FALSE}
+library(tidyverse)
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+
+```
+
+# O que precisamos saber hoje?
+
+.pull-left[
+- ### Como a biodiversidade se organiza espacial e temporalmente na Terra
+- ### Como usar essas informações para desenhar estratégias de conservação
+- ### Aprender um pouco de Biogeografia
+]
+
+.pull-right[
+<img src="https://media.giphy.com/media/S3Pe5NZqgmE8Tl3NI5/giphy.gif" height 300/>
+]
+---
+
+# A história da biodiversidade
+
+<img src="https://www.researchgate.net/profile/Dirk-Olbers/publication/263466153/figure/fig10/AS:296039673286669@1447592766800/Development-of-life-on-Earth-shown-as-a-spiralling-timeline_W640.jpg" height = 500/>
+---
+# Vivemos o período mais Biodiverso da Terra
+.pull-left[
+
+<img src="https://ars.els-cdn.com/content/image/3-s2.0-B9780123852274000055-f06-27-9780123852274.jpg?" height= 500/>
+]
+.pull-right[
+### Mas não foi suave...
+### Houve muitas extinções EM MASSA
+### Mas a vida continuou prosperando
+]
+---
+class: center, middle
+# A vida na Terra hoje é o resultado de 4,5 bilhões de anos de evolução, especiação, extinção e dispersão
+---
+# Fronteiras biológicas da Terra
+[**Províncias biogeográficas**](https://en.wikipedia.org/wiki/Biogeographic_realm)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ecozones.svg/1920px-Ecozones.svg.png"/>
+---
+# A bidiversidade se desenvolveu em diferentes lugares
+### na terra (plantas)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Biodiversity_Global_Plant_Species.png/800px-Biodiversity_Global_Plant_Species.png"/>
+---
+# A bidiversidade se desenvolveu em diferentes lugares
+### no mar [(mamíferos)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0019653)
+<img src="https://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0019653.g001"/>
+
+---
+# A própria árvore da vida é bastante desigual em termos de diversidade
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/A_Novel_Representation_Of_The_Tree_Of_Life.png/800px-A_Novel_Representation_Of_The_Tree_Of_Life.png" height = 500/>
+---
+# Padrões e mais padrões
+.pull-left[
+<img src="https://www.researchgate.net/profile/Andy-Purvis/publication/12497295/figure/fig2/AS:286653269725201@1445354873766/Subtaxa-within-taxa-are-often-distributed-unevenlyUneven-distribution-of-species-among_W640.jpg"/>
+[Purvis & Hector¨ (2000).](https://www.nature.com/articles/35012221)
+]
+
+.pull-right[
+- ### Esse padrão aninhado acontece em todos os níveis de vida
+<img src="https://3.bp.blogspot.com/-6Cre3lTjytI/W685AQ_irVI/AAAAAAAAAFY/9t1JpXx-sDs_mfFxk8KhGxOOQ2tc3UZmgCLcBGAs/s1600/bd1.jpg"/>
+]
+---
+class: center, middle
+
+# E continua...
+---
+# Quantas espécies existem na Terra?
+
