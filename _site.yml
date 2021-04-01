@@ -14,5 +14,5 @@ navbar:
         - text: "Introdução a Biodiversidade"
           href: intro_bio.html
         - text: "Padrões globais de distribuição e magnitude da biodiversidade"
-          href: biogeo.html
+          href: magnitude.html
         - text: "---------"
