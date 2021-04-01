@@ -24,7 +24,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r xaringan-tile-view, echo=FALSE}
-
+xaringanExtra::use_tile_view()
+xaringanExtra::use_share_again()
+xaringanExtra::use_scribble()
+xaringanExtra::use_fit_screen()
 ```
 
 # O que precisamos saber hoje?
@@ -157,7 +160,7 @@ https://www.scielo.br/scielo.php?script=sci_arttext&pid=S2175-78602018000402209]
 ---
 # Interação entre espécies
 .center[
-<img src="/slides/libs/img/bio_int.png" height=500>
+<img src="/slides/libs/img/bio_int.png" height=500/>
 ]
 ---
 # Biogeografia de ilhas
