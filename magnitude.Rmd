@@ -22,4 +22,6 @@ xaringanExtra::embed_xaringan(url = "https://fplmelo.github.io/ecogeral2/slides/
 
 ```
 
-# O que é pre
+# Leituras sugeridas
+
+# Exercício
