@@ -15,4 +15,5 @@ navbar:
           href: intro_bio.html
         - text: "Padrões globais de distribuição e magnitude da biodiversidade"
           href: magnitude.html
-        - text: "---------"
+        - text: "Ameaças à biodiversidade"
+          href: ameaças.html
