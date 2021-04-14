@@ -1,6 +1,6 @@
 ---
 title: "Ecologia Geral 2"
-subtitle: "Aula 2 - Ameaças à biodiversidade"
+subtitle: "Aula 3 - Ameaças à biodiversidade"
 author: "Felipe Melo"
 institute: "Laboratório de Ecologia Aplicada - UFPE"
 date: "`r Sys.Date()`"

@@ -1,0 +1,27 @@
+---
+title: "Introdução à Biologia da Conservação"
+author: "Felipe Melo"
+date: "`r Sys.Date()`"
+html_document:
+    df_print: paged
+    toc: true
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(share_buttons = c("twitter", "linkedin", "pocket"))
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# *Slides* 
+
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://fplmelo.github.io/ecogeral2/slides/aula4_biocons.html#1", ratio = "16:9")
+
+```
+
+# Em construção
+
+![](https://www.boavista.rr.leg.br/imagens/emconstruo.jpg/image)
