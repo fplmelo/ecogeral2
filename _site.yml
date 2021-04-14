@@ -17,3 +17,5 @@ navbar:
           href: magnitude.html
         - text: "Ameaças à biodiversidade"
           href: ameaças.html
+        - text: "Introdução à Biologia da Conservação"
+          href: biocons.html
