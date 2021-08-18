@@ -259,8 +259,6 @@ class: center
 
 ### - Conservacionismo
 
-### - Capital Natural
-
 ### - Neoconservacionismo
 
 ### - Conservação convivial
@@ -277,7 +275,7 @@ class: center
 ]
 
 ---
-# A capitalizaçaõ da natureza
+# O Conservacionismo e a capitalização da natureza
 .pull-left[
 ###[Peter Kareiva](https://www.ioes.ucla.edu/person/peter-kareiva/)
 <img src="https://www.ioes.ucla.edu/wp-content/uploads/pk-a-600x800.jpg" height = 400>

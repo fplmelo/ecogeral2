@@ -11,17 +11,26 @@
 
 <meta name="author" content="Felipe Melo" />
 
-<meta name="date" content="2021-04-14" />
+<meta name="date" content="2021-08-18" />
 
 <title>Introdução à Biologia da Conservação</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -42,11 +51,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -59,32 +63,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 
@@ -95,10 +73,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -115,40 +89,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -176,7 +123,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -188,7 +135,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -199,10 +146,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -214,7 +174,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -322,13 +281,13 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
 <h1 class="title toc-ignore">Introdução à Biologia da Conservação</h1>
 <h4 class="author">Felipe Melo</h4>
-<h4 class="date">2021-04-14</h4>
+<h4 class="date">2021-08-18</h4>
 
 </div>
 
@@ -340,9 +299,32 @@ $(document).ready(function () {
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 </div>
-<div id="em-construção" class="section level1">
-<h1>Em construção</h1>
-<p><img src="https://www.boavista.rr.leg.br/imagens/emconstruo.jpg/image" /></p>
+<div id="biologia-da-conservação" class="section level1">
+<h1>Biologia da conservação</h1>
+<p>Ciência interndisciplinar que tem como objetivo resolver a crise da biodiversidade. É uma disciplina nova, surgidda à partir da constatação de que a humanidade passa por uma crise tremenda de extinção de espécies. Não se restringe apenas à biologia, apesar de seu nome e de sua origem dentro do campo das ciências nauturais.</p>
+<div id="o-que-é-biologia-da-conservação" class="section level2">
+<h2><a href="https://www.oeco.org.br/dicionario-ambiental/28367-o-que-e-a-biologia-da-conservacao/#:~:text=Os%20bi%C3%B3logos%20da%20conserva%C3%A7%C3%A3o%20pesquisam,bem%2Destar%20da%20sociedade%20humana.">O que é biologia da conservação?</a></h2>
+</div>
+<div id="princípios-da-biologia-da-conservação" class="section level2">
+<h2><a href="https://conbio.org/images/content_prof_dev/conservation_literacy_portuguese.pdf">Princípios da Biologia da Conservação</a></h2>
+</div>
+<div id="veja-esse-video-de-dois-biólogos-que-criaram-uma-empresa-dedicada-à-biologia-da-conservação" class="section level2">
+<h2>Veja esse video de dois biólogos que criaram uma empresa dedicada à biologia da conservação</h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/WjJdvr12Y7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="podcast-papagaio-de-primata" class="section level2">
+<h2><a href="https://biologiadaconservacao.com.br/papagaiodeprimata">Podcast Papagaio de Primata</a></h2>
+</div>
+<div id="antropocene-magazine" class="section level2">
+<h2><a href="https://www.anthropocenemagazine.org/">Antropocene Magazine</a></h2>
+</div>
+<div id="instituto-de-pesquisa-ecológicas" class="section level2">
+<h2><a href="https://www.ipe.org.br/?gclid=CjwKCAjw3_KIBhA2EiwAaAAliqw-yD_l6hPNXm28xmGB9VKDd6aaW1QFnUsmjCv3ZUH8Gc8PUSY0ZhoCc1IQAvD_BwE">Instituto de Pesquisa Ecológicas</a></h2>
+</div>
+<div id="história-do-pensamento-conservacionista" class="section level2">
+<h2><a href="https://www.scielo.br/j/his/a/LZyXDZjgmVh4ssHfPPNrGHd/?lang=pt">História do pensamento conservacionista</a></h2>
+</div>
 </div>
 
 
@@ -372,7 +354,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
