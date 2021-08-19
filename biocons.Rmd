@@ -11,7 +11,6 @@ html_document:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 xaringanExtra::use_share_again()
-xaringanExtra::style_share_again(share_buttons = c("twitter", "linkedin", "pocket"))
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
