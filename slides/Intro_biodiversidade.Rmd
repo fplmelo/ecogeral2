@@ -57,7 +57,7 @@ class: center, middle
 # Diversidade filogenética
 
 .pull-left[
-<img src="https://science.sciencemag.org/content/sci/363/6424/282/F1.large.jpg?width=800&height=600&carousel=1" height = 500/>
+<img src="libs/img/grab.jpeg" height = 500/>
 [Grab et al 2019](https://science.sciencemag.org/content/363/6424/282)]
 
 .pull-right[
