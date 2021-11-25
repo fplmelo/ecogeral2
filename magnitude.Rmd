@@ -10,9 +10,6 @@ html_document:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-xaringanExtra::use_share_again()
-xaringanExtra::style_share_again(share_buttons = c("twitter", "linkedin", "pocket"))
-knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # *Slides* 
@@ -35,16 +32,24 @@ xaringanExtra::embed_xaringan(url = "https://fplmelo.github.io/ecogeral2/slides/
 
 ### Uma animação sobre os continentes
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/BKGv740PwB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="980" height="520" src="https://www.youtube.com/embed/BKGv740PwB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
 
 ### Assista esse pequeno vídeo sobre a atuação de um laaboratório de biogeografia
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/BiG7UqaMIYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="980" height="720" src="https://www.youtube.com/embed/BiG7UqaMIYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
 
 ### Aqui mais um vídeo **muito** esclarecedor sobre como a biogeografia pode ajudar na conservação
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/s3gsP5HzwdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="980" height="520" src="https://www.youtube.com/embed/s3gsP5HzwdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
 
 # Exercício
 
